@@ -1,0 +1,55 @@
+
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "omar",
+    "email" : "omar3@gmail.com",
+    "password" : "1234",
+    "phone" : "1234",
+    "address" : "1234"
+}
+
+###
+
+POST http://localhost:5000/provider
+Content-Type: application/json
+
+{
+    "name": "omar",
+    "email" : "omar5@gmail.com",
+    "password" : "1234",
+    "phone" : "1234",
+    "address" : "1234"
+}
+
+###
+
+POST http://localhost:5000/logIn_customer
+Content-Type: application/json
+
+{
+    "email" : "omar@gmail.com",
+    "password" : "123Omar!"
+}
+
+###
+
+GET http://localhost:5000/get_user
+authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcnNfaWQiOjEsInJvbGUiOiJ1c2VyIiwidXNlcm5hbWUiOiJPbWFyIiwiZW1haWwiOiJvbWFyQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiMTIzT21hciEiLCJwaG9uZSI6IjA3Nzg3ODgwMTQiLCJhZGRyZXNzIjoiYWFhIiwicG9wdWxhcl9jYXJzIjpudWxsLCJjcmVkaXRfY2FyZCI6bnVsbCwiY2FyZGhvbGRlcl9uYW1lIjpudWxsLCJjYXJkX2V4cGlyYXRpb25fZGF0ZSI6bnVsbCwiY3Z2X2N2Y19jb2RlIjpudWxsLCJpc19kZWxldGUiOmZhbHNlLCJpYXQiOjE2ODU4MTI2ODR9.ofjOT_Eb6BpdXlipU_TLRohCmkA52jaNSzFU7IgrQw0
+
+
+###
+
+
+GET http://localhost:5000/provider
+authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJuYW1lIjoib21hciIsInBhc3N3b3JkIjoiMTIzNCIsImlhdCI6MTY4NTQ1NjQyMCwiZXhwIjoxNjg1ODg4NDIwfQ.96EBN7qdOuLsWqC2KhIxZ51vzz3-zLwI1fyKzmRT4tQ
+
+
+// Admin
+authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm92aWRlcl9pZCI6IjEiLCJyb2xlIjoiYWRtaW4iLCJ1c2VybmFtZSI6Im9tYXIiLCJlbWFpbCI6Im9tYXJAZ21haWwuY29tIiwicGFzc3dvcmQiOiIxMjM0IiwiYWRkcmVzcyI6IjEyMzQiLCJpc19kZWxldGUiOmZhbHNlLCJhY3RpdmUiOmZhbHNlLCJpYXQiOjE2ODU3Nzg4Mzh9.l2QXMxyV_Y3b6QKM6xU5uV46pLrHGS0DZSR_RV-zuIY
+// user
+authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm92aWRlcl9pZCI6IjEiLCJyb2xlIjoidXNlciIsInVzZXJuYW1lIjoib21hciIsImVtYWlsIjoib21hckBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjEyMzQiLCJhZGRyZXNzIjoiMTIzNCIsImlzX2RlbGV0ZSI6ZmFsc2UsImFjdGl2ZSI6ZmFsc2UsImlhdCI6MTY4NTc3ODg2M30.iqv9Tr5iFrS79nJaTheSqJSyzamTKll2SrjLDUepAII
+// Provider
+authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm92aWRlcl9pZCI6IjEiLCJyb2xlIjoicHJvdmlkZXIiLCJ1c2VybmFtZSI6Im9tYXIiLCJlbWFpbCI6Im9tYXJAZ21haWwuY29tIiwicGFzc3dvcmQiOiIxMjM0IiwiYWRkcmVzcyI6IjEyMzQiLCJpc19kZWxldGUiOmZhbHNlLCJhY3RpdmUiOmZhbHNlLCJpYXQiOjE2ODU3Nzg4OTF9.SYcXSMVfkooIYF9U2EnJlpBusAFbCwFgRhVCgRrX7fc
